@@ -46,5 +46,11 @@
 
 				});
 
+				$(document).ajaxStop(function () {
+					
+					clicked = false;
+
+				});
+
 			}});
 	});
