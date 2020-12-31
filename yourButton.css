@@ -1,0 +1,24 @@
+.button_loadmore {
+	background-color:#ddd;
+	border-radius:4px;
+	display:block;
+	width:100px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 800;
+	letter-spacing:1px;
+	cursor:pointer;
+	text-transform:uppercase;
+	padding:10px 0;
+	transition:background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+	user-select:none;
+	box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.35);
+}
+
+.button_loadmore:hover {
+	background-color:#767676;
+	color:#fff;
+}
