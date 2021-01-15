@@ -36,7 +36,7 @@
 
 					for( var i = 0; i < posts.length; i++ )
 					{
-						if( posts[i] == "0" )
+						if( posts[i] == false ) // "0" can cause some problems
 							$("#load_more").fadeOut();
 						else
 							$("#load_more").before(posts[i]);

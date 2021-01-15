@@ -35,7 +35,7 @@ function your_load_more() {
                 ob_end_clean(); // clear the buffer
 
                 if( $cpt == $articles->found_posts )
-                	$getPosts[] = "0";
+                	$getPosts[] = false; // "0" can cause some problems
 
             }
             $cpt++;
