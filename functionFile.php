@@ -1,6 +1,6 @@
 <?php
 function my__enqueue() {
-	wp_enqueue_script( 'my__load__more', get_template_directory_uri() . '/assets/js/load_more.js', array( 'jquery' ), '1.0.0', true );
+	wp_enqueue_script( 'my__load__more', get_template_directory_uri() . '/assets/js/load_more.js', array( 'jquery' ) );
 
 	global $wp_query;
 
